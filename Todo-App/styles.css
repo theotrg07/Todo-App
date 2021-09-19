@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: 'Poppins';
+}
+
+.container {
+  background: -webkit-gradient(linear, left top, right top, color-stop(70%, #f8f8f8), color-stop(30%, #62B6CB));
+  background: linear-gradient(to right, #f8f8f8 70%, #62B6CB 30%);
+  height: 94vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
+
+.box {
+  background-color: white;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px rgba(83, 83, 83, 0.76);
+          box-shadow: 3px 3px rgba(83, 83, 83, 0.76);
+  height: 80%;
+}
+
+h1 {
+  margin: .7em;
+}
+
+#input-field {
+  margin: .4em;
+  padding: .6em;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+#add-task-btn {
+  padding: .8em;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background-color: #62B6CB;
+  cursor: pointer;
+}
+
+.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  background-color: honeydew;
+  -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: .4em;
+}
+
+ul {
+  height: 100%;
+}
+
+li {
+  color: black;
+  list-style: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.task:hover {
+  background-color: #e0dcdc;
+}
+
+.delete-btn {
+  padding: .8em;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.856);
+  border-radius: 8px;
+  border: none;
+}
+
+.fa-trash {
+  pointer-events: none;
+}
+
+.fall {
+  -webkit-transform: translateY(6rem);
+          transform: translateY(6rem);
+  opacity: 0.5;
+}
+/*# sourceMappingURL=styles.css.map */
