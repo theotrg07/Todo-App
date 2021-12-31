@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+
+$white:#f8f8f8;
+$blue: #62B6CB;
+
+*{
+    padding:0;
+    margin:0;
+    outline:none;
+    font-family: 'Poppins';
+}
+
+.container{
+    background:linear-gradient(to right, $white 70%, $blue 30%);
+    height: 94vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:1em;
+
+}
+
+.box{
+    background-color:white;
+    padding:2em;
+    margin:2em;
+    border-radius:8px;
+    box-shadow:3px 3px rgba(83, 83, 83, 0.76);
+    height:80%;
+}
+
+h1{
+    margin:.7em;
+}
+
+#input-field{
+    margin:.4em;
+    padding:.6em;
+    font-weight:bold;
+    border-radius:8px;
+    border:2px solid black;
+
+}
+
+#add-task-btn{
+    padding:.8em;
+    color:white;
+    border-radius:10px;
+    border:none;
+    background-color: $blue;
+    cursor:pointer;
+}
+
+.task{
+    display:flex;
+    width:100%;
+    border-radius:10px;
+    transition: all .2s ease;
+    background-color:honeydew;
+    box-shadow: 3px 3px rgba(0, 0, 0, .25);
+    border:none;
+    outline:none;
+    justify-content: center;
+    align-items: center;
+    margin:.4em;
+
+}
+
+ul{
+    height:100%;  
+}
+
+
+
+li{
+    color:black;
+    list-style:none;
+    flex:1;
+    text-align: center;
+}
+
+
+.task:hover{
+    background-color: rgb(224, 220, 220);
+}
+
+.delete-btn{
+    padding:.8em;
+    color:white;
+    background-color: rgba(255, 0, 0, 0.856);
+    border-radius:8px;
+    border:none;
+
+
+}
+
+.fa-trash{
+    pointer-events: none;
+}
+
+.fall{
+    transform: translateY(6rem);
+    opacity:0.5;
+}
+
+
